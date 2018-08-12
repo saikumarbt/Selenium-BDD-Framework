@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/main/java/com/suntaragali/crm/features/deals.feature"},
+		features = {"src/main/java/com/suntaragali/crm/features/dealsMap.feature"},
 		glue = {"com.suntaragali.crm.step_def"},
 		plugin= { "pretty", "html:target/test-output"},
 		monochrome=true,
